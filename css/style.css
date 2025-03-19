@@ -1,0 +1,37 @@
+.menu {
+    margin: 20px;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu button {
+    margin: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+    background-color: #0056b3;
+}
+
+#chart-container {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center;    /* Căn giữa theo chiều dọc */
+    width: 100vw;           /* Chiều rộng bằng 100% cửa sổ trình duyệt */
+    height: 100vh;          /* Chiều cao bằng 100% cửa sổ trình duyệt */
+    margin: 0;              /* Loại bỏ khoảng cách */
+    padding: 0;             /* Không thêm padding dư thừa */
+    background: #ffffff;    /* Nền trắng */
+    border-radius: 8px;     /* Bo góc */
+    box-sizing: border-box; /* Đảm bảo padding không làm thay đổi kích thước */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+}
+
